@@ -1,15 +1,15 @@
 [gd_scene load_steps=10 format=3 uid="uid://w0cyecc4xma0"]
 
 [ext_resource type="Script" path="res://game_manager.gd" id="1_kdg4i"]
-[ext_resource type="Texture2D" uid="uid://2rqkfetx7lnr" path="res://Green.png" id="2_37qxd"]
-[ext_resource type="Texture2D" uid="uid://b2kepu06bfadm" path="res://Terrain (16x16).png" id="3_obly8"]
+[ext_resource type="Texture2D" uid="uid://jmwuax83301o" path="res://inputs/Gray.png" id="2_84lk7"]
+[ext_resource type="Texture2D" uid="uid://b2kepu06bfadm" path="res://inputs/Terrain (16x16).png" id="3_f0bn8"]
 [ext_resource type="PackedScene" uid="uid://mfilx8lngky8" path="res://scenes/main_character.tscn" id="4_2qmtk"]
 [ext_resource type="PackedScene" uid="uid://dfk3feo67mnf3" path="res://scenes/collectable.tscn" id="5_6h4c7"]
 [ext_resource type="PackedScene" uid="uid://dv0egbop4ul0f" path="res://scenes/finish.tscn" id="6_bts45"]
 [ext_resource type="PackedScene" uid="uid://bu4h4ap83h2l" path="res://scenes/level4.tscn" id="6_exti2"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mkvnv"]
-texture = ExtResource("3_obly8")
+texture = ExtResource("3_f0bn8")
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 0:0/0/physics_layer_0/angular_velocity = 0.0
@@ -482,7 +482,7 @@ script = ExtResource("1_kdg4i")
 texture_filter = 1
 offset_right = 2227.0
 offset_bottom = 634.0
-texture = ExtResource("2_37qxd")
+texture = ExtResource("2_84lk7")
 stretch_mode = 1
 
 [node name="TileMap" type="TileMap" parent="SceneObjects"]

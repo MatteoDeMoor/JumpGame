@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://upp5q7muykx0"
-path="res://.godot/imported/Kiwi.png-46a3ec2b10d1236b326b2d6e6fe6fbec.ctex"
+uid="uid://mdovm51lckgr"
+path="res://.godot/imported/Purple.png-5b20d945d55958a4df8ee9853bff0143.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Kiwi.png"
-dest_files=["res://.godot/imported/Kiwi.png-46a3ec2b10d1236b326b2d6e6fe6fbec.ctex"]
+source_file="res://inputs/Purple.png"
+dest_files=["res://.godot/imported/Purple.png-5b20d945d55958a4df8ee9853bff0143.ctex"]
 
 [params]
 
